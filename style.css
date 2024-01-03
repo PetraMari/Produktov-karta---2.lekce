@@ -1,0 +1,128 @@
+.root {
+  --product-gray: #e5e5e5;
+  --product-light-yellow: #ffffe0;
+}
+
+.product-card-container {
+  border: 1px solid #e5e5e5;
+  width: 300px;
+  height: 550px;
+  padding: 20px;
+  position: relative;
+}
+
+.product-action-and-favourit-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+}
+
+.product-action {
+  background-color: #ffffe0;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 20px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-store-container {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.product-store {
+  font-size: 20px;
+  padding: 10px;
+  color: #6b8e23;
+  font-weight: bold;
+}
+
+.product-amount-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product-amount-1 {
+  border: 1px solid #6b8e23;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  line-height: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.product-amount-2 {
+  border: 1px solid #6b8e23;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  line-height: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.product-amount-3 {
+  border: 1px solid #6b8e23;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  line-height: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.product-add-to-cart-container {
+  margin-bottom: 20px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.product-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6b8e23;
+  position: absolute;
+  padding-top: 10px;
+}
+
+.product-button {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background-color: #d2691e;
+  display: inline-block;
+  padding: 10px 30px 10px 30px;
+  position: absolute;
+  right: 0px;
+  border-radius: 15px;
+  text-align: center;
+}
